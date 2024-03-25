@@ -1,0 +1,135 @@
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1602612639468-cd507b1cada9?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+
+    color: rgb(247, 241, 241);
+    text-transform: capitalize;
+    margin-top: 5%;
+    text-align: center;
+    text-shadow: 1px 1px 4px gray;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#info{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    width: 50%;
+    margin: 30px auto;
+    background-color: rgb(24, 24, 24,0.6);
+    padding: 8px;
+    border-radius: 5px;
+    display: none;
+}
+#info:hover{
+    background-color: rgb(24, 24, 24,0.9);
+    
+}
+.container{
+    background-color: rgb(101, 96, 96,0.6);
+    padding: 10px 20px;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 6px rgb(251, 251, 251);
+    overflow: hidden;
+}
+.container2{
+    background-color: rgb(101, 96, 96,0.6);
+    padding: 10px 20px;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 0px 6px rgb(251, 251, 251);
+    overflow: hidden;
+}
+#name{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 0px 6px black;
+    opacity: 0.8;
+}
+#email{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 0px 6px black;
+    opacity: 0.8;
+}
+#password{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    box-shadow: 0px 0px 6px black;
+    opacity: 0.8;
+}
+#login{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 6px black;
+    background-color: rgb(46, 88, 46);
+  
+}
+#login1{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 6px black;
+    background-color: rgb(70, 124, 70);
+}
+.buttons{
+    margin-top: 10px;
+    width: auto;
+    text-align: center;
+}
+#bt1{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 6px black;
+    background-color: rgb(46, 88, 46);
+}
+#bt2{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 6px black;
+    background-color: rgb(46, 88, 46);
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+
+    .container{
+        width: 50%;
+    }
+    #info{
+        width: 90%;
+    }
+}
